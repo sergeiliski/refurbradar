@@ -313,6 +313,12 @@ function bindControls() {
     if (toggle) toggleCompare(toggle.dataset.compare);
   });
   $('#compare-open').addEventListener('click', openComparison);
+  // A click on the backdrop lands on the dialog element itself, outside its box.
+  $('#compare-dialog').addEventListener('click', ({ target, clientX: x, clientY: y }) => {
+    const box = target.getBoundingClientRect();
+    const outside = x < box.left || x > box.right || y < box.top || y > box.bottom;
+    if (target.id === 'compare-dialog' && outside) target.close();
+  });
   $('#chips').addEventListener('change', syncChipFilter);
   $('#chips-any').addEventListener('click', () => {
     for (const input of document.querySelectorAll('#chips input')) input.checked = false;
