@@ -219,7 +219,7 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
   border-top: 1px solid var(--line);
   font-size: 0.9375rem;
 }
-.segmented { display: inline-flex; align-items: center; gap: 6px; margin: 0; padding: 0; border: 0; }
+.segmented { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0; padding: 0; border: 0; }
 .segmented legend { float: left; margin-right: 6px; padding: 0; }
 .segmented input { position: absolute; opacity: 0; pointer-events: none; }
 .segmented input:checked + label { border-color: var(--ink); background: var(--ink); color: var(--bg); }

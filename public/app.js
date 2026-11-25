@@ -17,6 +17,7 @@ const state = {
   weights: loadWeights(),
   available: new Set(FACTORS.map((f) => f.key)),
   size: 'any',
+  chips: new Set(),
   budget: Infinity,
   showSold: false,
   heroId: null,
@@ -107,7 +108,7 @@ function renderHero(best, hasListings, weights) {
   if (!best) {
     hero.innerHTML = hasListings
       ? `<div class="hero-empty"><h1 class="display">Nothing matches</h1>
-          <p>Raise the max price or set Screen to Any.</p></div>`
+          <p>Set Chip and Screen to Any, or raise the max price.</p></div>`
       : `<div class="hero-empty"><h1 class="display">No listings yet</h1>
           <p>The first daily update hasn’t run. Run <code>npm run update</code>, or start the Update deals workflow on GitHub.</p></div>`;
     state.heroId = null;
@@ -213,7 +214,10 @@ function render() {
   if (forSale.length) state.available = factorsWithData(forSale);
 
   const inView = (state.showSold ? all : forSale).filter(
-    (l) => (state.size === 'any' || l.size === Number(state.size)) && l.price <= state.budget,
+    (l) =>
+      (state.chips.size === 0 || state.chips.has(l.gen)) &&
+      (state.size === 'any' || l.size === Number(state.size)) &&
+      l.price <= state.budget,
   );
   const weights = effectiveWeights();
   const ranked = rank(inView, weights);
@@ -294,6 +298,10 @@ function bindControls() {
     state.size = target.value;
     scheduleRender();
   });
+  $('#chips').addEventListener('change', () => {
+    setChips([...document.querySelectorAll('#chips input:checked')].map((input) => Number(input.value)));
+  });
+  $('#chips-any').addEventListener('click', () => setChips([]));
   $('#budget').addEventListener('input', ({ target }) => {
     state.budget = Number(target.value) > 0 ? Number(target.value) : Infinity;
     scheduleRender();
@@ -304,11 +312,26 @@ function bindControls() {
   });
 }
 
+/** One pill per chip generation in the data, so a new generation shows up without a code change. */
+function buildChipFilter(listings) {
+  const gens = [...new Set(listings.map((l) => l.gen))].sort((a, b) => a - b);
+  $('#chips').insertAdjacentHTML('beforeend', gens.map((gen) => `
+    <input type="checkbox" id="chip-${gen}" value="${gen}"><label class="pill" for="chip-${gen}">${gen ? `M${gen}` : 'Intel'}</label>`).join(''));
+}
+
+function setChips(gens) {
+  state.chips = new Set(gens);
+  for (const input of document.querySelectorAll('#chips input')) input.checked = state.chips.has(Number(input.value));
+  $('#chips-any').setAttribute('aria-pressed', String(state.chips.size === 0));
+  scheduleRender();
+}
+
 async function loadData() {
   try {
     const response = await fetch('data.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`data.json returned ${response.status}`);
     state.data = await response.json();
+    buildChipFilter(Object.values(state.data.listings));
   } catch (error) {
     $('#status').textContent = `Couldn’t load listings (${error.message}).`;
   }
