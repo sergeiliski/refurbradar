@@ -64,6 +64,7 @@
         <div class="ranking-head">
           <h2 id="ranking-title">Ranked for you</h2>
           <p id="count"></p>
+          <p class="hint">Press + on up to three machines to compare them.</p>
         </div>
         <ol class="rows" id="rows"></ol>
         <p class="empty-note" id="empty-note" hidden></p>
@@ -85,8 +86,7 @@
       <h2 id="compare-title">Side by side</h2>
       <form method="dialog"><button class="pill">Close</button></form>
     </div>
-    <ul class="compare-summary" id="compare-summary"></ul>
-    <div class="compare-table-wrap"><table id="compare-table"></table></div>
+    <div id="compare-body"></div>
     <p class="compare-note">CPU scores are Geekbench 6.7 averages from Notebookcheck’s processor benchmark list.
       It has no GPU benchmarks for Apple chips, so GPU is shown as core counts, and newer GPU cores are faster.</p>
   </dialog>

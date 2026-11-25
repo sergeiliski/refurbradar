@@ -190,6 +190,7 @@ function renderRows(ranked) {
     }
     row.innerHTML = rowMarkup(entry, index);
     row.classList.toggle('is-top', index === 0);
+    row.classList.toggle('is-picked', state.compare.includes(entry.listing.id));
     list.append(row);
   });
 
@@ -361,12 +362,14 @@ function syncChipFilter() {
 const MAX_COMPARE = 3;
 const machineName = (l) => `${chipName(l)} ${l.size ?? ''}″ ${l.year ?? ''}`;
 
+const shortName = (l) => `${chipName(l)} ${l.size ?? ''}″`;
+
 function compareToggle(listing) {
-  const picked = state.compare.includes(listing.id);
-  const full = !picked && state.compare.length >= MAX_COMPARE;
-  const label = `${picked ? 'Remove' : 'Add'} ${machineName(listing)}, ${listing.ram} GB, ${storage(listing.ssd)}, ${listing.grade} ${picked ? 'from' : 'to'} comparison`;
-  return `<button class="compare-toggle" type="button" data-compare="${escapeHtml(listing.id)}" aria-pressed="${picked}"
-    aria-label="${label}"${full ? ` disabled title="You can compare up to ${MAX_COMPARE} machines"` : ''}></button>`;
+  const slot = state.compare.indexOf(listing.id) + 1;
+  const full = !slot && state.compare.length >= MAX_COMPARE;
+  const label = `${slot ? 'Remove' : 'Add'} ${machineName(listing)}, ${listing.ram} GB, ${storage(listing.ssd)}, ${listing.grade} ${slot ? 'from' : 'to'} comparison`;
+  return `<button class="compare-toggle" type="button" data-compare="${escapeHtml(listing.id)}" data-slot="${slot || ''}"
+    aria-pressed="${slot > 0}" aria-label="${label}" title="${full ? `You can compare up to ${MAX_COMPARE} machines` : label}"${full ? ' disabled' : ''}></button>`;
 }
 
 function toggleCompare(id) {
@@ -379,54 +382,75 @@ const comparedListings = () => state.compare.map((id) => state.data.listings[id]
 function renderCompareTray() {
   const picks = comparedListings();
   $('#compare-tray').hidden = picks.length === 0;
-  $('#compare-picks').innerHTML = picks.map((l) => `
-    <li>${machineName(l)} <span>${gbp(l.price)}</span>
-      <button class="tray-remove" type="button" data-compare="${escapeHtml(l.id)}" aria-label="Remove ${machineName(l)} from comparison">×</button></li>`).join('');
+  $('#compare-picks').innerHTML = Array.from({ length: MAX_COMPARE }, (_, i) => {
+    const l = picks[i];
+    if (!l) return `<li class="tray-slot is-empty"><span class="slot">${i + 1}</span>Add a machine</li>`;
+    return `<li class="tray-slot"><span class="slot">${i + 1}</span>
+      <span class="tray-name">${shortName(l)}</span><span class="tray-price">${gbp(l.price)}</span>
+      <button class="tray-remove" type="button" data-compare="${escapeHtml(l.id)}" aria-label="Remove ${machineName(l)} from comparison">×</button></li>`;
+  }).join('');
   Object.assign($('#compare-open'), {
     disabled: picks.length < 2,
-    textContent: picks.length < 2 ? 'Pick one more to compare' : `Compare ${picks.length}`,
+    textContent: picks.length < 2 ? 'Pick one more' : `Compare ${picks.length}`,
   });
 }
 
-/** Side-by-side table, measured against the first machine picked. */
+/** A bar per machine for one measure, scaled to the best, with each described against slot 1. */
+function meters(label, values, { note = '', relative = true } = {}) {
+  const top = Math.max(...values.filter(Boolean));
+  const rows = values.map((value, i) => {
+    const slot = `<span class="slot">${i + 1}</span>`;
+    if (!value) return `<div class="meter">${slot}<span class="meter-missing">No benchmark for this exact chip</span></div>`;
+    const versus = relative && i > 0 && values[0] ? describe(value, values[0]) : '';
+    const tone = versus.includes('faster') ? 'is-faster' : versus.includes('slower') ? 'is-slower' : '';
+    return `<div class="meter">${slot}
+      <span class="meter-bar"><i style="--fill: ${((value / top) * 100).toFixed(1)}%"></i></span>
+      <b>${Math.round(value).toLocaleString('en-GB')}</b><span class="${tone}">${versus}</span></div>`;
+  });
+  return `<div class="meters"><h4>${label}${note ? ` <small>${note}</small>` : ''}</h4>${rows.join('')}</div>`;
+}
+
+/** Machine cards, performance bars and specs, measured against the first machine picked. */
 function openComparison() {
   const picks = comparedListings();
-  const [base] = picks;
   const scores = picks.map(cpuScores);
+  const [base] = picks;
 
-  const scoreRow = (label, key) => {
-    const top = Math.max(...scores.map((s) => s?.[key] ?? 0));
-    const cells = picks.map((l, i) => {
-      const s = scores[i];
-      if (!s) return '<td class="muted">No benchmark for this exact chip</td>';
-      const versus = i > 0 && scores[0] ? describe(s[key], scores[0][key]) : '';
-      const tone = versus.includes('faster') ? 'is-faster' : versus.includes('slower') ? 'is-slower' : '';
-      return `<td><b>${Math.round(s[key]).toLocaleString('en-GB')}</b> <span class="${tone}">${versus}</span>
-        <i class="bar" style="--fill: ${((s[key] / top) * 100).toFixed(1)}%"></i></td>`;
-    });
-    return `<tr><th scope="row">${label}</th>${cells.join('')}</tr>`;
-  };
-  const row = (label, cell) => `<tr><th scope="row">${label}</th>${picks.map((l) => `<td>${cell(l)}</td>`).join('')}</tr>`;
+  const cards = picks.map((l, i) => `
+    <article class="pick">
+      <span class="slot">${i + 1}</span>
+      <h3>${shortName(l)}</h3>
+      <p class="pick-meta">${[l.year, l.grade, l.battery === 'new' && 'new battery'].filter(Boolean).join(', ')}</p>
+      <p class="pick-price">${gbp(l.price)}</p>
+      <a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">View on Back Market</a>
+    </article>`).join('');
 
-  $('#compare-table').innerHTML = `
-    <thead><tr><td></td>${picks.map((l) => `<th scope="col"><a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${machineName(l)}</a></th>`).join('')}</tr></thead>
-    <tbody>
-      ${row('Price', (l) => gbp(l.price))}
-      ${row('Condition', (l) => `${l.grade}${l.battery === 'new' ? ', new battery' : ''}`)}
-      ${row('Memory and storage', (l) => `${l.ram ?? '?'} GB, ${storage(l.ssd)}`)}
-      ${row('CPU', (l) => (l.cpu ? `${l.cpu} cores` : 'Unknown'))}
-      ${scoreRow('Single-core', 'single')}
-      ${scoreRow('Multi-core', 'multi')}
-      ${row('GPU', (l) => (l.gpu ? `${l.gpu} cores` : 'Unknown'))}
-    </tbody>`;
-
-  $('#compare-summary').innerHTML = picks.slice(1).map((l, i) => {
+  const verdict = picks.slice(1).map((l, i) => {
     const s = scores[i + 1];
     const parts = scores[0] && s ? [`${describe(s.single, scores[0].single)} single-core`, `${describe(s.multi, scores[0].multi)} multi-core`] : [];
     if (l.gpu && base.gpu) parts.push(`${l.gpu} GPU cores against ${base.gpu}`);
-    return `<li><b>${machineName(l)}</b> against the ${machineName(base)}: ${parts.length ? andList.format(parts) : 'no benchmark for one of these chips'}.</li>`;
+    return `<li><b>${shortName(l)}</b>: ${parts.length ? andList.format(parts) : 'no benchmark for one of these chips'}, compared with the ${shortName(base)}.</li>`;
   }).join('');
 
+  const specs = [
+    ['Memory', (l) => `${l.ram ?? '?'} GB`],
+    ['Storage', (l) => storage(l.ssd)],
+    ['CPU', (l) => (l.cpu ? `${l.cpu} cores` : 'Unknown')],
+    ['GPU', (l) => (l.gpu ? `${l.gpu} cores` : 'Unknown')],
+  ].map(([label, cell]) => `<tr><th scope="row">${label}</th>${picks.map((l) => `<td>${cell(l)}</td>`).join('')}</tr>`).join('');
+
+  $('#compare-body').innerHTML = `
+    <div class="picks" style="--count: ${picks.length}">${cards}</div>
+    <ul class="verdict">${verdict}</ul>
+    <section class="perf" aria-label="Performance">
+      ${meters('Single-core', scores.map((s) => s?.single), { note: 'Geekbench 6' })}
+      ${meters('Multi-core', scores.map((s) => s?.multi), { note: 'Geekbench 6' })}
+      ${meters('GPU', picks.map((l) => l.gpu), { note: 'core count, not a benchmark', relative: false })}
+    </section>
+    <table class="compare-specs">
+      <thead><tr><td></td>${picks.map((_, i) => `<th scope="col"><span class="slot">${i + 1}</span></th>`).join('')}</tr></thead>
+      <tbody>${specs}</tbody>
+    </table>`;
   $('#compare-dialog').showModal();
 }
 
