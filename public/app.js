@@ -17,7 +17,8 @@ const state = {
   weights: loadWeights(),
   available: new Set(FACTORS.map((f) => f.key)),
   size: 'any',
-  chips: new Set(),
+  gens: new Set(),
+  tiers: new Set(),
   budget: Infinity,
   showSold: false,
   heroId: null,
@@ -215,7 +216,8 @@ function render() {
 
   const inView = (state.showSold ? all : forSale).filter(
     (l) =>
-      (state.chips.size === 0 || state.chips.has(l.gen)) &&
+      (state.gens.size === 0 || state.gens.has(l.gen)) &&
+      (state.tiers.size === 0 || state.tiers.has(l.tier)) &&
       (state.size === 'any' || l.size === Number(state.size)) &&
       l.price <= state.budget,
   );
@@ -298,10 +300,11 @@ function bindControls() {
     state.size = target.value;
     scheduleRender();
   });
-  $('#chips').addEventListener('change', () => {
-    setChips([...document.querySelectorAll('#chips input:checked')].map((input) => Number(input.value)));
+  $('#chips').addEventListener('change', syncChipFilter);
+  $('#chips-any').addEventListener('click', () => {
+    for (const input of document.querySelectorAll('#chips input')) input.checked = false;
+    syncChipFilter();
   });
-  $('#chips-any').addEventListener('click', () => setChips([]));
   $('#budget').addEventListener('input', ({ target }) => {
     state.budget = Number(target.value) > 0 ? Number(target.value) : Infinity;
     scheduleRender();
@@ -312,17 +315,27 @@ function bindControls() {
   });
 }
 
-/** One pill per chip generation in the data, so a new generation shows up without a code change. */
+/**
+ * One pill per chip generation and per Pro or Max tier in the data, so a new generation shows up
+ * without a code change. Nothing selected in a row means any.
+ */
 function buildChipFilter(listings) {
   const gens = [...new Set(listings.map((l) => l.gen))].sort((a, b) => a - b);
-  $('#chips').insertAdjacentHTML('beforeend', gens.map((gen) => `
-    <input type="checkbox" id="chip-${gen}" value="${gen}"><label class="pill" for="chip-${gen}">${gen ? `M${gen}` : 'Intel'}</label>`).join(''));
+  const tiers = ['pro', 'max'].filter((tier) => listings.some((l) => l.tier === tier));
+  const pill = (kind, value, label) =>
+    `<input type="checkbox" id="${kind}-${value}" data-kind="${kind}" value="${value}"><label class="pill" for="${kind}-${value}">${label}</label>`;
+  $('#chips').insertAdjacentHTML('beforeend', [
+    ...gens.map((gen) => pill('gen', gen, gen ? `M${gen}` : 'Intel')),
+    tiers.length ? '<span class="divider" aria-hidden="true"></span>' : '',
+    ...tiers.map((tier) => pill('tier', tier, tier === 'pro' ? 'Pro' : 'Max')),
+  ].join(''));
 }
 
-function setChips(gens) {
-  state.chips = new Set(gens);
-  for (const input of document.querySelectorAll('#chips input')) input.checked = state.chips.has(Number(input.value));
-  $('#chips-any').setAttribute('aria-pressed', String(state.chips.size === 0));
+function syncChipFilter() {
+  const checked = (kind) => [...document.querySelectorAll(`#chips input[data-kind="${kind}"]:checked`)].map((input) => input.value);
+  state.gens = new Set(checked('gen').map(Number));
+  state.tiers = new Set(checked('tier'));
+  $('#chips-any').setAttribute('aria-pressed', String(state.gens.size + state.tiers.size === 0));
   scheduleRender();
 }
 

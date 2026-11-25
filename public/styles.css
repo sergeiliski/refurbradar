@@ -220,6 +220,7 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
   font-size: 0.9375rem;
 }
 .segmented { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0; padding: 0; border: 0; }
+.segmented .divider { width: 1px; height: 18px; margin: 0 4px; background: var(--line); }
 .segmented legend { float: left; margin-right: 6px; padding: 0; }
 .segmented input { position: absolute; opacity: 0; pointer-events: none; }
 .segmented input:checked + label { border-color: var(--ink); background: var(--ink); color: var(--bg); }
