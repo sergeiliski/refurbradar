@@ -54,9 +54,6 @@
           </fieldset>
           <fieldset class="segmented" id="size">
             <legend>Screen</legend>
-            <input type="radio" name="size" id="size-any" value="any" checked><label class="pill" for="size-any">Any</label>
-            <input type="radio" name="size" id="size-14" value="14"><label class="pill" for="size-14">14″</label>
-            <input type="radio" name="size" id="size-16" value="16"><label class="pill" for="size-16">16″</label>
           </fieldset>
           <label class="budget">Max price <input type="number" id="budget" inputmode="numeric" min="0" step="50" placeholder="Any £"></label>
           <label class="toggle"><input type="checkbox" id="show-sold"> Include listings not seen this week</label>
@@ -77,5 +74,21 @@
       <p>Prices from Back Market UK, refreshed daily. Not affiliated with Back Market.</p>
     </footer>
   </div>
+
+  <div class="compare-tray" id="compare-tray" hidden>
+    <ul id="compare-picks" aria-label="Machines to compare"></ul>
+    <button class="button" type="button" id="compare-open">Compare</button>
+  </div>
+
+  <dialog class="compare" id="compare-dialog" aria-labelledby="compare-title">
+    <div class="compare-head">
+      <h2 id="compare-title">Side by side</h2>
+      <form method="dialog"><button class="pill">Close</button></form>
+    </div>
+    <ul class="compare-summary" id="compare-summary"></ul>
+    <div class="compare-table-wrap"><table id="compare-table"></table></div>
+    <p class="compare-note">CPU scores are Geekbench 6.7 averages from Notebookcheck’s processor benchmark list.
+      It has no GPU benchmarks for Apple chips, so GPU is shown as core counts, and newer GPU cores are faster.</p>
+  </dialog>
 </body>
 </html>

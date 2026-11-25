@@ -50,6 +50,17 @@ Screen size and budget are filters rather than faders, because bigger and pricie
 for everyone. A fader whose data every listing shares (battery, when no listing offers a new one) is
 dimmed and left out of the score.
 
+## Comparing machines
+
+Tick up to three listings with the round button at the end of each row, then press Compare. The
+panel puts price, condition, memory, storage and cores side by side. It measures CPU power with
+Geekbench 6.7 single-core and multi-core averages per chip and core count, taken from
+[Notebookcheck's processor benchmark list](https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html)
+and kept in `public/benchmarks.js`. Each machine is described against the first one picked, such as
+"47% faster single-core". Notebookcheck has no GPU benchmarks for Apple chips, so GPU is compared by
+core count, which understates newer generations. A chip that isn't in the table says so instead of
+guessing.
+
 ## Running it
 
 Node 22.9 or newer. There are no dependencies to install.
@@ -86,7 +97,7 @@ lib/        listings.js  parsing, validation and price history
             apify.js     a small Apify API client
 scripts/    update.js    the daily fetch
             serve.js     local dev server
-public/     index.html, styles.css, app.js, scoring.js and data.json: the whole site
+public/     index.html, styles.css, app.js, scoring.js, benchmarks.js and data.json: the whole site
 test/       unit tests, run with node:test
 ```
 

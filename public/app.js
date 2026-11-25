@@ -1,3 +1,4 @@
+import { cpuScores, describe } from './benchmarks.js';
 import { FACTORS, PRESETS, factorsWithData, rank } from './scoring.js';
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -16,7 +17,8 @@ const state = {
   data: { listings: {}, scans: [] },
   weights: loadWeights(),
   available: new Set(FACTORS.map((f) => f.key)),
-  size: 'any',
+  sizes: new Set(),
+  compare: [],
   gens: new Set(),
   tiers: new Set(),
   budget: Infinity,
@@ -111,7 +113,7 @@ function renderHero(best, hasListings, weights) {
   if (!best) {
     hero.innerHTML = hasListings
       ? `<div class="hero-empty"><h1 class="display">Nothing matches</h1>
-          <p>Set Chip and Screen to Any, or raise the max price.</p></div>`
+          <p>Clear the Chip or Screen picks, or raise the max price.</p></div>`
       : `<div class="hero-empty"><h1 class="display">No listings yet</h1>
           <p>The first daily update hasn’t run. Run <code>npm run update</code>, or start the Update deals workflow on GitHub.</p></div>`;
     state.heroId = null;
@@ -168,7 +170,8 @@ function rowMarkup({ listing, score }, index) {
     <span class="score" style="--score: ${score.toFixed(1)}%"><i></i><b>${Math.round(score)}</b></span>
     <span class="row-price">${gbp(listing.price)}</span>
     <span class="row-change ${change.className}">${change.text}</span>
-    ${sparkline(listing.history)}`;
+    ${sparkline(listing.history)}
+    ${compareToggle(listing)}`;
 }
 
 const rowElements = new Map();
@@ -221,7 +224,7 @@ function render() {
     (l) =>
       (state.gens.size === 0 || state.gens.has(l.gen)) &&
       (state.tiers.size === 0 || state.tiers.has(l.tier)) &&
-      (state.size === 'any' || l.size === Number(state.size)) &&
+      (state.sizes.size === 0 || state.sizes.has(l.size)) &&
       l.price <= state.budget,
   );
   const weights = effectiveWeights();
@@ -230,6 +233,7 @@ function render() {
   renderStatus(forSale.length);
   renderHero(ranked[0], all.length > 0, weights);
   renderRows(ranked);
+  renderCompareTray();
   syncFaders();
 
   $('#count').textContent = all.length ? `${ranked.length} ${ranked.length === 1 ? 'listing' : 'listings'}` : '';
@@ -299,10 +303,15 @@ function bindControls() {
       scheduleRender();
     });
   }
-  $('#size').addEventListener('change', ({ target }) => {
-    state.size = target.value;
+  $('#size').addEventListener('change', () => {
+    state.sizes = new Set([...document.querySelectorAll('#size input:checked')].map((input) => Number(input.value)));
     scheduleRender();
   });
+  document.addEventListener('click', ({ target }) => {
+    const toggle = target.closest('[data-compare]');
+    if (toggle) toggleCompare(toggle.dataset.compare);
+  });
+  $('#compare-open').addEventListener('click', openComparison);
   $('#chips').addEventListener('change', syncChipFilter);
   $('#chips-any').addEventListener('click', () => {
     for (const input of document.querySelectorAll('#chips input')) input.checked = false;
@@ -322,11 +331,18 @@ function bindControls() {
  * One pill per chip generation and per Pro or Max tier in the data, so a new generation shows up
  * without a code change. Nothing selected in a row means any.
  */
+const pill = (kind, value, label) =>
+  `<input type="checkbox" id="${kind}-${value}" data-kind="${kind}" value="${value}"><label class="pill" for="${kind}-${value}">${label}</label>`;
+
+const distinct = (values) => [...new Set(values)].filter((v) => v != null).sort((a, b) => a - b);
+
+function buildSizeFilter(listings) {
+  $('#size').insertAdjacentHTML('beforeend', distinct(listings.map((l) => l.size)).map((size) => pill('size', size, `${size}″`)).join(''));
+}
+
 function buildChipFilter(listings) {
-  const gens = [...new Set(listings.map((l) => l.gen))].sort((a, b) => a - b);
+  const gens = distinct(listings.map((l) => l.gen));
   const tiers = ['pro', 'max'].filter((tier) => listings.some((l) => l.tier === tier));
-  const pill = (kind, value, label) =>
-    `<input type="checkbox" id="${kind}-${value}" data-kind="${kind}" value="${value}"><label class="pill" for="${kind}-${value}">${label}</label>`;
   $('#chips').insertAdjacentHTML('beforeend', [
     ...gens.map((gen) => pill('gen', gen, gen ? `M${gen}` : 'Intel')),
     tiers.length ? '<span class="divider" aria-hidden="true"></span>' : '',
@@ -342,11 +358,84 @@ function syncChipFilter() {
   scheduleRender();
 }
 
+const MAX_COMPARE = 3;
+const machineName = (l) => `${chipName(l)} ${l.size ?? ''}″ ${l.year ?? ''}`;
+
+function compareToggle(listing) {
+  const picked = state.compare.includes(listing.id);
+  const full = !picked && state.compare.length >= MAX_COMPARE;
+  const label = `${picked ? 'Remove' : 'Add'} ${machineName(listing)}, ${listing.ram} GB, ${storage(listing.ssd)}, ${listing.grade} ${picked ? 'from' : 'to'} comparison`;
+  return `<button class="compare-toggle" type="button" data-compare="${escapeHtml(listing.id)}" aria-pressed="${picked}"
+    aria-label="${label}"${full ? ` disabled title="You can compare up to ${MAX_COMPARE} machines"` : ''}></button>`;
+}
+
+function toggleCompare(id) {
+  state.compare = state.compare.includes(id) ? state.compare.filter((picked) => picked !== id) : [...state.compare, id];
+  scheduleRender();
+}
+
+const comparedListings = () => state.compare.map((id) => state.data.listings[id]).filter(Boolean);
+
+function renderCompareTray() {
+  const picks = comparedListings();
+  $('#compare-tray').hidden = picks.length === 0;
+  $('#compare-picks').innerHTML = picks.map((l) => `
+    <li>${machineName(l)} <span>${gbp(l.price)}</span>
+      <button class="tray-remove" type="button" data-compare="${escapeHtml(l.id)}" aria-label="Remove ${machineName(l)} from comparison">×</button></li>`).join('');
+  Object.assign($('#compare-open'), {
+    disabled: picks.length < 2,
+    textContent: picks.length < 2 ? 'Pick one more to compare' : `Compare ${picks.length}`,
+  });
+}
+
+/** Side-by-side table, measured against the first machine picked. */
+function openComparison() {
+  const picks = comparedListings();
+  const [base] = picks;
+  const scores = picks.map(cpuScores);
+
+  const scoreRow = (label, key) => {
+    const top = Math.max(...scores.map((s) => s?.[key] ?? 0));
+    const cells = picks.map((l, i) => {
+      const s = scores[i];
+      if (!s) return '<td class="muted">No benchmark for this exact chip</td>';
+      const versus = i > 0 && scores[0] ? describe(s[key], scores[0][key]) : '';
+      const tone = versus.includes('faster') ? 'is-faster' : versus.includes('slower') ? 'is-slower' : '';
+      return `<td><b>${Math.round(s[key]).toLocaleString('en-GB')}</b> <span class="${tone}">${versus}</span>
+        <i class="bar" style="--fill: ${((s[key] / top) * 100).toFixed(1)}%"></i></td>`;
+    });
+    return `<tr><th scope="row">${label}</th>${cells.join('')}</tr>`;
+  };
+  const row = (label, cell) => `<tr><th scope="row">${label}</th>${picks.map((l) => `<td>${cell(l)}</td>`).join('')}</tr>`;
+
+  $('#compare-table').innerHTML = `
+    <thead><tr><td></td>${picks.map((l) => `<th scope="col"><a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${machineName(l)}</a></th>`).join('')}</tr></thead>
+    <tbody>
+      ${row('Price', (l) => gbp(l.price))}
+      ${row('Condition', (l) => `${l.grade}${l.battery === 'new' ? ', new battery' : ''}`)}
+      ${row('Memory and storage', (l) => `${l.ram ?? '?'} GB, ${storage(l.ssd)}`)}
+      ${row('CPU', (l) => (l.cpu ? `${l.cpu} cores` : 'Unknown'))}
+      ${scoreRow('Single-core', 'single')}
+      ${scoreRow('Multi-core', 'multi')}
+      ${row('GPU', (l) => (l.gpu ? `${l.gpu} cores` : 'Unknown'))}
+    </tbody>`;
+
+  $('#compare-summary').innerHTML = picks.slice(1).map((l, i) => {
+    const s = scores[i + 1];
+    const parts = scores[0] && s ? [`${describe(s.single, scores[0].single)} single-core`, `${describe(s.multi, scores[0].multi)} multi-core`] : [];
+    if (l.gpu && base.gpu) parts.push(`${l.gpu} GPU cores against ${base.gpu}`);
+    return `<li><b>${machineName(l)}</b> against the ${machineName(base)}: ${parts.length ? andList.format(parts) : 'no benchmark for one of these chips'}.</li>`;
+  }).join('');
+
+  $('#compare-dialog').showModal();
+}
+
 async function loadData() {
   try {
     const response = await fetch('data.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`data.json returned ${response.status}`);
     state.data = await response.json();
+    buildSizeFilter(Object.values(state.data.listings));
     buildChipFilter(Object.values(state.data.listings));
   } catch (error) {
     $('#status').textContent = `Couldn’t load listings (${error.message}).`;
