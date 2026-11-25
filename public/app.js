@@ -31,6 +31,8 @@ const chipName = ({ gen, tier }) => (gen ? `M${gen}${{ pro: ' Pro', max: ' Max' 
 
 const storage = (gb) => (gb == null ? 'Unknown storage' : gb >= 1000 ? `${gb / 1000} TB` : `${gb} GB`);
 
+const cores = ({ cpu, gpu }) => [cpu && `${cpu}-core CPU`, gpu && `${gpu}-core GPU`].filter(Boolean).join(', ');
+
 const formatDay = (isoDay) => shortDate.format(new Date(isoDay));
 
 function timeAgo(iso) {
@@ -127,7 +129,7 @@ function renderHero(best, hasListings, weights) {
   hero.innerHTML = `
     <div>
       <h1 class="display">${chipName(listing)} ${listing.size ?? ''}″
-        <small>MacBook Pro ${listing.year ?? ''}${listing.nano ? ', nano-texture display' : ''}</small></h1>
+        <small>${['MacBook Pro ' + (listing.year ?? ''), cores(listing), listing.nano && 'nano-texture display'].filter(Boolean).join(', ')}</small></h1>
       <ul class="specs">
         <li>${listing.ram ?? '?'} GB memory</li>
         <li>${storage(listing.ssd)}</li>
@@ -160,7 +162,8 @@ function rowMarkup({ listing, score }, index) {
     <span class="row-rank">${index + 1}</span>
     <a class="row-name" href="${escapeHtml(listing.url)}" target="_blank" rel="noopener">
       ${chipName(listing)} ${listing.size ?? ''}″ <small>${listing.year ?? ''}</small></a>
-    <span class="row-config">${listing.ram ?? '?'} GB, ${storage(listing.ssd)}${listing.battery === 'new' ? ', new battery' : ''}</span>
+    <span class="row-config">${listing.ram ?? '?'} GB, ${storage(listing.ssd)}${listing.battery === 'new' ? ', new battery' : ''}
+      <small>${cores(listing)}</small></span>
     <span class="row-grade">${listing.grade}</span>
     <span class="score" style="--score: ${score.toFixed(1)}%"><i></i><b>${Math.round(score)}</b></span>
     <span class="row-price">${gbp(listing.price)}</span>

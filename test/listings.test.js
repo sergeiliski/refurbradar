@@ -25,9 +25,9 @@ const m2 = (overrides = {}) => ({
 });
 
 test('parseSpecs reads product names', () => {
-  assert.deepEqual(parseSpecs(m2().name), { size: 13, year: 2022, gen: 2, tier: 'base', ram: 8, ssd: 256, nano: false });
+  assert.deepEqual(parseSpecs(m2().name), { size: 13, year: 2022, gen: 2, tier: 'base', cpu: 8, gpu: 10, ram: 8, ssd: 256, nano: false });
   const max = parseSpecs('MacBook Pro 16-inch (2024) - Apple M4 Max 16-core and 40-core GPU - 64GB RAM - SSD 1000GB - Standard display');
-  assert.deepEqual([max.size, max.gen, max.tier, max.ram, max.ssd], [16, 4, 'max', 64, 1000]);
+  assert.deepEqual([max.size, max.gen, max.tier, max.cpu, max.gpu, max.ram, max.ssd], [16, 4, 'max', 16, 40, 64, 1000]);
 });
 
 test('parseSpecs reads product slugs, including Intel ones', () => {

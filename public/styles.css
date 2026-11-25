@@ -259,6 +259,7 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
 .row-name:hover { color: var(--signal); }
 .row-name small { color: var(--muted); font-size: 0.875rem; font-weight: 400; }
 .row-config { grid-area: config; }
+.row-config small { display: block; color: var(--muted); font-size: 0.8125rem; }
 .row-grade { grid-area: grade; color: var(--muted); }
 .row-price { grid-area: price; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
 .row-change { grid-area: change; font-size: 0.875rem; font-variant-numeric: tabular-nums; text-align: right; }
