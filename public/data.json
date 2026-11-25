@@ -1,0 +1,2104 @@
+{
+  "listings": {
+    "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Fair": {
+      "id": "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/ef20e8dd-bcbf-4d94-8933-15f59560b9b9?l=12",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 554,
+      "history": [
+        [
+          "2026-11-25",
+          554
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Good": {
+      "id": "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/ef20e8dd-bcbf-4d94-8933-15f59560b9b9?l=11",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 728,
+      "history": [
+        [
+          "2026-11-25",
+          728
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Excellent": {
+      "id": "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/ef20e8dd-bcbf-4d94-8933-15f59560b9b9?l=10",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 750,
+      "history": [
+        [
+          "2026-11-25",
+          750
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "d127981d-6d36-4574-b56d-8dae62077f4a:Fair": {
+      "id": "d127981d-6d36-4574-b56d-8dae62077f4a:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/d127981d-6d36-4574-b56d-8dae62077f4a?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 945,
+      "history": [
+        [
+          "2026-11-25",
+          945
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "d127981d-6d36-4574-b56d-8dae62077f4a:Good": {
+      "id": "d127981d-6d36-4574-b56d-8dae62077f4a:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/d127981d-6d36-4574-b56d-8dae62077f4a?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1099,
+      "history": [
+        [
+          "2026-11-25",
+          1099
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "d127981d-6d36-4574-b56d-8dae62077f4a:Excellent": {
+      "id": "d127981d-6d36-4574-b56d-8dae62077f4a:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/d127981d-6d36-4574-b56d-8dae62077f4a?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1250,
+      "history": [
+        [
+          "2026-11-25",
+          1250
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Good": {
+      "id": "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/9ad04fc3-6949-445b-a777-a0c805ac5ae0?l=11",
+      "size": 14,
+      "year": 2025,
+      "gen": 5,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1575,
+      "history": [
+        [
+          "2026-11-25",
+          1575
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Fair": {
+      "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/8948b82c-f746-4be0-a8b0-0758b1dc4acc?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 399,
+      "history": [
+        [
+          "2026-11-25",
+          399
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Good": {
+      "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/8948b82c-f746-4be0-a8b0-0758b1dc4acc?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 550,
+      "history": [
+        [
+          "2026-11-25",
+          550
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Excellent": {
+      "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/8948b82c-f746-4be0-a8b0-0758b1dc4acc?l=10",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 557,
+      "history": [
+        [
+          "2026-11-25",
+          557
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Fair": {
+      "id": "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/97eeef5e-b6b3-41df-80b2-94a913ea0cb0?l=12",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1349,
+      "history": [
+        [
+          "2026-11-25",
+          1349
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Good": {
+      "id": "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/97eeef5e-b6b3-41df-80b2-94a913ea0cb0?l=11",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1301,
+      "history": [
+        [
+          "2026-11-25",
+          1301
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Excellent": {
+      "id": "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/97eeef5e-b6b3-41df-80b2-94a913ea0cb0?l=10",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1428,
+      "history": [
+        [
+          "2026-11-25",
+          1428
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Good:new-battery": {
+      "id": "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Good:new-battery",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/97eeef5e-b6b3-41df-80b2-94a913ea0cb0?l=11",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": "new",
+      "price": 1518,
+      "history": [
+        [
+          "2026-11-25",
+          1518
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "b2d2919b-02ae-4fbf-8877-1ca988418906:Fair": {
+      "id": "b2d2919b-02ae-4fbf-8877-1ca988418906:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/b2d2919b-02ae-4fbf-8877-1ca988418906?l=12/b2d2919b-02ae-4fbf-8877-1ca988418906?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 999,
+      "history": [
+        [
+          "2026-11-25",
+          999
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "b2d2919b-02ae-4fbf-8877-1ca988418906:Good": {
+      "id": "b2d2919b-02ae-4fbf-8877-1ca988418906:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/b2d2919b-02ae-4fbf-8877-1ca988418906?l=12/b2d2919b-02ae-4fbf-8877-1ca988418906?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1049,
+      "history": [
+        [
+          "2026-11-25",
+          1049
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "4c213d89-272b-4139-8f1b-1eea45ff35b7:Fair": {
+      "id": "4c213d89-272b-4139-8f1b-1eea45ff35b7:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/4c213d89-272b-4139-8f1b-1eea45ff35b7?l=12/4c213d89-272b-4139-8f1b-1eea45ff35b7?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1069,
+      "history": [
+        [
+          "2026-11-25",
+          1069
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "31bda5ba-39a0-4277-8e0c-40e82d0054dc:Fair": {
+      "id": "31bda5ba-39a0-4277-8e0c-40e82d0054dc:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/31bda5ba-39a0-4277-8e0c-40e82d0054dc?l=12/31bda5ba-39a0-4277-8e0c-40e82d0054dc?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 429,
+      "history": [
+        [
+          "2026-11-25",
+          429
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "baad625b-ba10-4d11-a15d-3194e002e80d:Fair": {
+      "id": "baad625b-ba10-4d11-a15d-3194e002e80d:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/baad625b-ba10-4d11-a15d-3194e002e80d?l=12/baad625b-ba10-4d11-a15d-3194e002e80d?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 630,
+      "history": [
+        [
+          "2026-11-25",
+          630
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "baad625b-ba10-4d11-a15d-3194e002e80d:Good": {
+      "id": "baad625b-ba10-4d11-a15d-3194e002e80d:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/baad625b-ba10-4d11-a15d-3194e002e80d?l=12/baad625b-ba10-4d11-a15d-3194e002e80d?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 649,
+      "history": [
+        [
+          "2026-11-25",
+          649
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "971d112f-19a2-434b-982a-e393399d9fd9:Fair": {
+      "id": "971d112f-19a2-434b-982a-e393399d9fd9:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/971d112f-19a2-434b-982a-e393399d9fd9?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 849,
+      "history": [
+        [
+          "2026-11-25",
+          849
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Fair": {
+      "id": "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/1e1ec3c9-c221-4651-870c-74d2c8c28a3c?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 699,
+      "history": [
+        [
+          "2026-11-25",
+          699
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "937c5a73-b367-4bc7-a817-c05f66c84572:Fair": {
+      "id": "937c5a73-b367-4bc7-a817-c05f66c84572:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/937c5a73-b367-4bc7-a817-c05f66c84572?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1039,
+      "history": [
+        [
+          "2026-11-25",
+          1039
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "937c5a73-b367-4bc7-a817-c05f66c84572:Good": {
+      "id": "937c5a73-b367-4bc7-a817-c05f66c84572:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/937c5a73-b367-4bc7-a817-c05f66c84572?l=11",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1204,
+      "history": [
+        [
+          "2026-11-25",
+          1204
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "937c5a73-b367-4bc7-a817-c05f66c84572:Excellent": {
+      "id": "937c5a73-b367-4bc7-a817-c05f66c84572:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/937c5a73-b367-4bc7-a817-c05f66c84572?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1298,
+      "history": [
+        [
+          "2026-11-25",
+          1298
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fe461b5f-6b8b-41ff-aa01-a4758902b112:Fair": {
+      "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fe461b5f-6b8b-41ff-aa01-a4758902b112?l=12",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1700,
+      "history": [
+        [
+          "2026-11-25",
+          1700
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fe461b5f-6b8b-41ff-aa01-a4758902b112:Good": {
+      "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fe461b5f-6b8b-41ff-aa01-a4758902b112?l=11",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1899,
+      "history": [
+        [
+          "2026-11-25",
+          1899
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fe461b5f-6b8b-41ff-aa01-a4758902b112:Excellent": {
+      "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fe461b5f-6b8b-41ff-aa01-a4758902b112?l=10",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2148,
+      "history": [
+        [
+          "2026-11-25",
+          2148
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fe461b5f-6b8b-41ff-aa01-a4758902b112:Premium": {
+      "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Premium",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fe461b5f-6b8b-41ff-aa01-a4758902b112?l=9",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Premium",
+      "battery": null,
+      "price": 2200,
+      "history": [
+        [
+          "2026-11-25",
+          2200
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Fair": {
+      "id": "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7ec61285-e7f0-47e7-a338-cc55f7ec5a41?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 716,
+      "history": [
+        [
+          "2026-11-25",
+          716
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "78e550f7-863b-4357-8818-5c3a8fe362f3:Fair": {
+      "id": "78e550f7-863b-4357-8818-5c3a8fe362f3:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/78e550f7-863b-4357-8818-5c3a8fe362f3?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1299,
+      "history": [
+        [
+          "2026-11-25",
+          1299
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "e5c0062d-0963-4df9-ac70-9674edb60225:Excellent": {
+      "id": "e5c0062d-0963-4df9-ac70-9674edb60225:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/e5c0062d-0963-4df9-ac70-9674edb60225?l=10",
+      "size": 16,
+      "year": 2026,
+      "gen": 5,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2499,
+      "history": [
+        [
+          "2026-11-25",
+          2499
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "64047dde-896c-49c5-8c2b-dba16852fbaf:Fair": {
+      "id": "64047dde-896c-49c5-8c2b-dba16852fbaf:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/64047dde-896c-49c5-8c2b-dba16852fbaf?l=12/64047dde-896c-49c5-8c2b-dba16852fbaf?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 749,
+      "history": [
+        [
+          "2026-11-25",
+          749
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "918ee94d-6c66-4999-8fdb-005fc6168f38:Fair": {
+      "id": "918ee94d-6c66-4999-8fdb-005fc6168f38:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/918ee94d-6c66-4999-8fdb-005fc6168f38?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1050,
+      "history": [
+        [
+          "2026-11-25",
+          1050
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "5ba06843-3bbd-4a18-8fd2-4df36e4516f8:Excellent": {
+      "id": "5ba06843-3bbd-4a18-8fd2-4df36e4516f8:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/5ba06843-3bbd-4a18-8fd2-4df36e4516f8?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2199,
+      "history": [
+        [
+          "2026-11-25",
+          2199
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "dfa1a64e-40d9-482b-8acb-5d29630f552f:Fair": {
+      "id": "dfa1a64e-40d9-482b-8acb-5d29630f552f:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/dfa1a64e-40d9-482b-8acb-5d29630f552f?l=12",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "max",
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 2599,
+      "history": [
+        [
+          "2026-11-25",
+          2599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "dee349d2-9b3f-45a1-9f13-bafc80a95fdf:Excellent": {
+      "id": "dee349d2-9b3f-45a1-9f13-bafc80a95fdf:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/dee349d2-9b3f-45a1-9f13-bafc80a95fdf?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1899,
+      "history": [
+        [
+          "2026-11-25",
+          1899
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Fair": {
+      "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2883b943-e9e2-4d3b-9993-21dd2b42bdf2?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1120,
+      "history": [
+        [
+          "2026-11-25",
+          1120
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Good": {
+      "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2883b943-e9e2-4d3b-9993-21dd2b42bdf2?l=11",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1339,
+      "history": [
+        [
+          "2026-11-25",
+          1339
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Excellent": {
+      "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2883b943-e9e2-4d3b-9993-21dd2b42bdf2?l=10",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1399,
+      "history": [
+        [
+          "2026-11-25",
+          1399
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "9a349640-443b-43c2-aa6d-bdbe4b9e69a9:Excellent": {
+      "id": "9a349640-443b-43c2-aa6d-bdbe4b9e69a9:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/9a349640-443b-43c2-aa6d-bdbe4b9e69a9?l=10",
+      "size": 16,
+      "year": 2026,
+      "gen": 5,
+      "tier": "max",
+      "ram": 36,
+      "ssd": 2000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 4102,
+      "history": [
+        [
+          "2026-11-25",
+          4102
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "002916e0-120d-449a-bd30-022527c26607:Fair": {
+      "id": "002916e0-120d-449a-bd30-022527c26607:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/002916e0-120d-449a-bd30-022527c26607?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1599,
+      "history": [
+        [
+          "2026-11-25",
+          1599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "f1b21ee2-2445-43a3-94b0-c80d30229293:Fair": {
+      "id": "f1b21ee2-2445-43a3-94b0-c80d30229293:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/f1b21ee2-2445-43a3-94b0-c80d30229293?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "ram": 48,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 2899,
+      "history": [
+        [
+          "2026-11-25",
+          2899
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "cccbd654-810c-4942-bb2c-067885e446a7:Excellent": {
+      "id": "cccbd654-810c-4942-bb2c-067885e446a7:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/cccbd654-810c-4942-bb2c-067885e446a7?l=10",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "max",
+      "ram": 64,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 3800,
+      "history": [
+        [
+          "2026-11-25",
+          3800
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "c21de06d-a61d-428c-9b66-b095e37b067e:Fair": {
+      "id": "c21de06d-a61d-428c-9b66-b095e37b067e:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/c21de06d-a61d-428c-9b66-b095e37b067e?l=12/c21de06d-a61d-428c-9b66-b095e37b067e?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1149,
+      "history": [
+        [
+          "2026-11-25",
+          1149
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "c21de06d-a61d-428c-9b66-b095e37b067e:Good": {
+      "id": "c21de06d-a61d-428c-9b66-b095e37b067e:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/c21de06d-a61d-428c-9b66-b095e37b067e?l=12/c21de06d-a61d-428c-9b66-b095e37b067e?l=11",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1199,
+      "history": [
+        [
+          "2026-11-25",
+          1199
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "a8739849-84c3-4e2c-9abe-96691299a702:Excellent": {
+      "id": "a8739849-84c3-4e2c-9abe-96691299a702:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/a8739849-84c3-4e2c-9abe-96691299a702?l=10/a8739849-84c3-4e2c-9abe-96691299a702?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2199,
+      "history": [
+        [
+          "2026-11-25",
+          2199
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "946234a9-c96f-417e-a926-51e88c732b47:Fair": {
+      "id": "946234a9-c96f-417e-a926-51e88c732b47:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/946234a9-c96f-417e-a926-51e88c732b47?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1145,
+      "history": [
+        [
+          "2026-11-25",
+          1145
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fffefc73-3053-4468-be45-dd5e7fe62e13:Fair": {
+      "id": "fffefc73-3053-4468-be45-dd5e7fe62e13:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fffefc73-3053-4468-be45-dd5e7fe62e13?l=12",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1599,
+      "history": [
+        [
+          "2026-11-25",
+          1599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fffefc73-3053-4468-be45-dd5e7fe62e13:Excellent": {
+      "id": "fffefc73-3053-4468-be45-dd5e7fe62e13:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fffefc73-3053-4468-be45-dd5e7fe62e13?l=10",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1714,
+      "history": [
+        [
+          "2026-11-25",
+          1714
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2a101131-a627-4830-8385-eba155ef9e18:Fair": {
+      "id": "2a101131-a627-4830-8385-eba155ef9e18:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/2a101131-a627-4830-8385-eba155ef9e18?l=12",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 798,
+      "history": [
+        [
+          "2026-11-25",
+          798
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "fd8ed139-8d6e-42fe-a15d-9fe6bd9e80a8:Fair": {
+      "id": "fd8ed139-8d6e-42fe-a15d-9fe6bd9e80a8:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/fd8ed139-8d6e-42fe-a15d-9fe6bd9e80a8?l=12",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 706,
+      "history": [
+        [
+          "2026-11-25",
+          706
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Fair": {
+      "id": "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/4c1f0d97-97ce-4f8c-8910-3522a2adcbde?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 999,
+      "history": [
+        [
+          "2026-11-25",
+          999
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Good": {
+      "id": "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/4c1f0d97-97ce-4f8c-8910-3522a2adcbde?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1099,
+      "history": [
+        [
+          "2026-11-25",
+          1099
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "66817557-aa53-47aa-b076-0b2f83e866c3:Fair": {
+      "id": "66817557-aa53-47aa-b076-0b2f83e866c3:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/66817557-aa53-47aa-b076-0b2f83e866c3?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 960,
+      "history": [
+        [
+          "2026-11-25",
+          960
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "c45c33f8-5b5e-4e49-9c58-9f5ad702173a:Fair": {
+      "id": "c45c33f8-5b5e-4e49-9c58-9f5ad702173a:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/c45c33f8-5b5e-4e49-9c58-9f5ad702173a?l=12/c45c33f8-5b5e-4e49-9c58-9f5ad702173a?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 549,
+      "history": [
+        [
+          "2026-11-25",
+          549
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "c45c33f8-5b5e-4e49-9c58-9f5ad702173a:Good": {
+      "id": "c45c33f8-5b5e-4e49-9c58-9f5ad702173a:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/c45c33f8-5b5e-4e49-9c58-9f5ad702173a?l=12/c45c33f8-5b5e-4e49-9c58-9f5ad702173a?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 599,
+      "history": [
+        [
+          "2026-11-25",
+          599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7408af3f-40ad-4e74-aff8-d2acca799683:Fair": {
+      "id": "7408af3f-40ad-4e74-aff8-d2acca799683:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7408af3f-40ad-4e74-aff8-d2acca799683?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 575,
+      "history": [
+        [
+          "2026-11-25",
+          575
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7408af3f-40ad-4e74-aff8-d2acca799683:Good": {
+      "id": "7408af3f-40ad-4e74-aff8-d2acca799683:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7408af3f-40ad-4e74-aff8-d2acca799683?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 754.44,
+      "history": [
+        [
+          "2026-11-25",
+          754.44
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7408af3f-40ad-4e74-aff8-d2acca799683:Excellent": {
+      "id": "7408af3f-40ad-4e74-aff8-d2acca799683:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7408af3f-40ad-4e74-aff8-d2acca799683?l=10",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 667,
+      "history": [
+        [
+          "2026-11-25",
+          667
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "43bce5eb-b8f1-4f35-a77b-0853a977ece0:Good": {
+      "id": "43bce5eb-b8f1-4f35-a77b-0853a977ece0:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/43bce5eb-b8f1-4f35-a77b-0853a977ece0?l=11/43bce5eb-b8f1-4f35-a77b-0853a977ece0?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 749,
+      "history": [
+        [
+          "2026-11-25",
+          749
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "30c2c24c-be74-409d-8bec-50e9b9bf421a:Fair": {
+      "id": "30c2c24c-be74-409d-8bec-50e9b9bf421a:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/30c2c24c-be74-409d-8bec-50e9b9bf421a?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 535,
+      "history": [
+        [
+          "2026-11-25",
+          535
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Excellent": {
+      "id": "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/9ad04fc3-6949-445b-a777-a0c805ac5ae0?l=10",
+      "size": 14,
+      "year": 2025,
+      "gen": 5,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1599,
+      "history": [
+        [
+          "2026-11-25",
+          1599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "31bda5ba-39a0-4277-8e0c-40e82d0054dc:Good": {
+      "id": "31bda5ba-39a0-4277-8e0c-40e82d0054dc:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/31bda5ba-39a0-4277-8e0c-40e82d0054dc?l=12/31bda5ba-39a0-4277-8e0c-40e82d0054dc?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "ram": 8,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 499,
+      "history": [
+        [
+          "2026-11-25",
+          499
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Good": {
+      "id": "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/1e1ec3c9-c221-4651-870c-74d2c8c28a3c?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 749,
+      "history": [
+        [
+          "2026-11-25",
+          749
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Excellent": {
+      "id": "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/1e1ec3c9-c221-4651-870c-74d2c8c28a3c?l=10",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 859,
+      "history": [
+        [
+          "2026-11-25",
+          859
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "971d112f-19a2-434b-982a-e393399d9fd9:Good": {
+      "id": "971d112f-19a2-434b-982a-e393399d9fd9:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/971d112f-19a2-434b-982a-e393399d9fd9?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1071,
+      "history": [
+        [
+          "2026-11-25",
+          1071
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "971d112f-19a2-434b-982a-e393399d9fd9:Excellent": {
+      "id": "971d112f-19a2-434b-982a-e393399d9fd9:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/971d112f-19a2-434b-982a-e393399d9fd9?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1119,
+      "history": [
+        [
+          "2026-11-25",
+          1119
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "b223cd84-efe0-4092-a0da-728b2f73c5fc:Good": {
+      "id": "b223cd84-efe0-4092-a0da-728b2f73c5fc:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/b223cd84-efe0-4092-a0da-728b2f73c5fc?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 990,
+      "history": [
+        [
+          "2026-11-25",
+          990
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "b223cd84-efe0-4092-a0da-728b2f73c5fc:Excellent": {
+      "id": "b223cd84-efe0-4092-a0da-728b2f73c5fc:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/b223cd84-efe0-4092-a0da-728b2f73c5fc?l=10",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1270,
+      "history": [
+        [
+          "2026-11-25",
+          1270
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "9c64cf09-4bb2-4668-856b-58a2925c5652:Good": {
+      "id": "9c64cf09-4bb2-4668-856b-58a2925c5652:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/9c64cf09-4bb2-4668-856b-58a2925c5652?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1499,
+      "history": [
+        [
+          "2026-11-25",
+          1499
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "ba48030e-5993-4659-9d3b-b40aa7a385ca:Excellent": {
+      "id": "ba48030e-5993-4659-9d3b-b40aa7a385ca:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/ba48030e-5993-4659-9d3b-b40aa7a385ca?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 36,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1799,
+      "history": [
+        [
+          "2026-11-25",
+          1799
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "c4825501-dad4-45b6-a9e6-82c8ca8782cc:Fair": {
+      "id": "c4825501-dad4-45b6-a9e6-82c8ca8782cc:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/c4825501-dad4-45b6-a9e6-82c8ca8782cc?l=12",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "base",
+      "ram": 32,
+      "ssd": 1000,
+      "nano": true,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1999,
+      "history": [
+        [
+          "2026-11-25",
+          1999
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Good": {
+      "id": "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7ec61285-e7f0-47e7-a338-cc55f7ec5a41?l=11",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 868,
+      "history": [
+        [
+          "2026-11-25",
+          868
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Excellent": {
+      "id": "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/7ec61285-e7f0-47e7-a338-cc55f7ec5a41?l=10",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 927,
+      "history": [
+        [
+          "2026-11-25",
+          927
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "68f17bb1-09a9-4d30-9cc0-f06e1f11d808:Fair": {
+      "id": "68f17bb1-09a9-4d30-9cc0-f06e1f11d808:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/68f17bb1-09a9-4d30-9cc0-f06e1f11d808?l=11/68f17bb1-09a9-4d30-9cc0-f06e1f11d808?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 990,
+      "history": [
+        [
+          "2026-11-25",
+          990
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "68f17bb1-09a9-4d30-9cc0-f06e1f11d808:Good": {
+      "id": "68f17bb1-09a9-4d30-9cc0-f06e1f11d808:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/68f17bb1-09a9-4d30-9cc0-f06e1f11d808?l=11/68f17bb1-09a9-4d30-9cc0-f06e1f11d808?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 829,
+      "history": [
+        [
+          "2026-11-25",
+          829
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "948d9093-dcb6-49cc-bb3d-f14071f1e068:Excellent": {
+      "id": "948d9093-dcb6-49cc-bb3d-f14071f1e068:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/948d9093-dcb6-49cc-bb3d-f14071f1e068?l=10",
+      "size": 14,
+      "year": 2025,
+      "gen": 5,
+      "tier": "base",
+      "ram": 32,
+      "ssd": 4000,
+      "nano": true,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 3500,
+      "history": [
+        [
+          "2026-11-25",
+          3500
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "78e550f7-863b-4357-8818-5c3a8fe362f3:Good": {
+      "id": "78e550f7-863b-4357-8818-5c3a8fe362f3:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/78e550f7-863b-4357-8818-5c3a8fe362f3?l=11",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1499,
+      "history": [
+        [
+          "2026-11-25",
+          1499
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "78e550f7-863b-4357-8818-5c3a8fe362f3:Excellent": {
+      "id": "78e550f7-863b-4357-8818-5c3a8fe362f3:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/78e550f7-863b-4357-8818-5c3a8fe362f3?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1949,
+      "history": [
+        [
+          "2026-11-25",
+          1949
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "6c552957-ecf8-4b9d-ae07-b1768cfe7233:Fair": {
+      "id": "6c552957-ecf8-4b9d-ae07-b1768cfe7233:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/6c552957-ecf8-4b9d-ae07-b1768cfe7233?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1299,
+      "history": [
+        [
+          "2026-11-25",
+          1299
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "40779901-5775-4089-8f05-bfa601f9d60e:Fair": {
+      "id": "40779901-5775-4089-8f05-bfa601f9d60e:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/40779901-5775-4089-8f05-bfa601f9d60e?l=12",
+      "size": 16,
+      "year": 2024,
+      "gen": 4,
+      "tier": "max",
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 2600,
+      "history": [
+        [
+          "2026-11-25",
+          2600
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Fair": {
+      "id": "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2264ef6f-0d2c-4cc6-8d1a-21968f77313b?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 999,
+      "history": [
+        [
+          "2026-11-25",
+          999
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "a8aab55f-4401-42cf-a3cc-846910b19f8d:Excellent": {
+      "id": "a8aab55f-4401-42cf-a3cc-846910b19f8d:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/a8aab55f-4401-42cf-a3cc-846910b19f8d?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "ram": 36,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1849,
+      "history": [
+        [
+          "2026-11-25",
+          1849
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "3a0c5247-2979-444a-89f5-392fa73dc4c5:Fair": {
+      "id": "3a0c5247-2979-444a-89f5-392fa73dc4c5:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/3a0c5247-2979-444a-89f5-392fa73dc4c5?l=12/3a0c5247-2979-444a-89f5-392fa73dc4c5?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 980,
+      "history": [
+        [
+          "2026-11-25",
+          980
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "f64512e4-b438-4f95-a524-35cc62bd2171:Fair": {
+      "id": "f64512e4-b438-4f95-a524-35cc62bd2171:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/f64512e4-b438-4f95-a524-35cc62bd2171?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1199,
+      "history": [
+        [
+          "2026-11-25",
+          1199
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "f64512e4-b438-4f95-a524-35cc62bd2171:Good": {
+      "id": "f64512e4-b438-4f95-a524-35cc62bd2171:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/f64512e4-b438-4f95-a524-35cc62bd2171?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1299,
+      "history": [
+        [
+          "2026-11-25",
+          1299
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "4bab1f7f-098b-4e59-9546-2447fe61a315:Fair": {
+      "id": "4bab1f7f-098b-4e59-9546-2447fe61a315:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/4bab1f7f-098b-4e59-9546-2447fe61a315?l=12",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 2700,
+      "history": [
+        [
+          "2026-11-25",
+          2700
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7a754b17-246e-4393-8a54-7c3da47bbe3a:Excellent": {
+      "id": "7a754b17-246e-4393-8a54-7c3da47bbe3a:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/7a754b17-246e-4393-8a54-7c3da47bbe3a?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "ram": 36,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2306,
+      "history": [
+        [
+          "2026-11-25",
+          2306
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "ed0d764b-18a0-4d21-ae4a-ed27d2d4b53c:Excellent": {
+      "id": "ed0d764b-18a0-4d21-ae4a-ed27d2d4b53c:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/ed0d764b-18a0-4d21-ae4a-ed27d2d4b53c?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 2,
+      "tier": "max",
+      "ram": 64,
+      "ssd": 4000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 3042,
+      "history": [
+        [
+          "2026-11-25",
+          3042
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "ae31be9d-795f-41d9-913f-91dc7e10bab3:Fair": {
+      "id": "ae31be9d-795f-41d9-913f-91dc7e10bab3:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/ae31be9d-795f-41d9-913f-91dc7e10bab3?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 64,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1499,
+      "history": [
+        [
+          "2026-11-25",
+          1499
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "3caf3177-d125-4e0a-b633-800bc613b5d6:Fair": {
+      "id": "3caf3177-d125-4e0a-b633-800bc613b5d6:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/3caf3177-d125-4e0a-b633-800bc613b5d6?l=12",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 1199,
+      "history": [
+        [
+          "2026-11-25",
+          1199
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "7d35d1e2-5538-42c2-8c46-0a5466cd4c96:Fair": {
+      "id": "7d35d1e2-5538-42c2-8c46-0a5466cd4c96:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/7d35d1e2-5538-42c2-8c46-0a5466cd4c96?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "ram": 128,
+      "ssd": 2000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 3599,
+      "history": [
+        [
+          "2026-11-25",
+          3599
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Excellent": {
+      "id": "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2264ef6f-0d2c-4cc6-8d1a-21968f77313b?l=10",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1290,
+      "history": [
+        [
+          "2026-11-25",
+          1290
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    },
+    "2a101131-a627-4830-8385-eba155ef9e18:Good": {
+      "id": "2a101131-a627-4830-8385-eba155ef9e18:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/2a101131-a627-4830-8385-eba155ef9e18?l=11",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 889,
+      "history": [
+        [
+          "2026-11-25",
+          889
+        ]
+      ],
+      "firstSeen": "2026-11-25",
+      "lastSeen": "2026-11-25"
+    }
+  },
+  "scans": [
+    {
+      "at": "2026-11-25T12:49:10.155Z",
+      "count": 93
+    },
+    {
+      "at": "2026-11-25T12:54:16.438Z",
+      "count": 46
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "refurbradar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ranks refurbished MacBook Pro listings on Back Market UK by what you care about.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "update": "node --env-file-if-exists=.env scripts/update.js",
+    "test": "node --test"
+  }
+}
