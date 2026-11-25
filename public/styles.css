@@ -60,7 +60,33 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
   cursor: pointer;
 }
 
-.masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 20px; padding: 24px 0 8px; }
+.masthead { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 20px; padding: 24px 0 8px; }
+
+.theme-toggle {
+  --moon: 0;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+:root[data-theme='dark'] .theme-toggle { --moon: 1; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .theme-toggle { --moon: 1; }
+}
+.theme-toggle:hover { border-color: var(--ink); }
+.theme-toggle svg * { transform-box: fill-box; transform-origin: center; transition: transform 450ms cubic-bezier(.2, .8, .2, 1), opacity 250ms ease; }
+.sun-core { transform: scale(calc(1 + 0.6 * var(--moon))); }
+.moon-cut { transform: translate(calc(-8px * var(--moon)), calc(2px * var(--moon))); }
+.sun-rays { transform: rotate(calc(45deg * var(--moon))) scale(calc(1 - var(--moon))); opacity: calc(1 - var(--moon)); }
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle svg * { transition: none; }
+}
 .brand { color: inherit; font-size: 1.125rem; font-weight: 800; font-stretch: 125%; letter-spacing: -0.01em; text-decoration: none; }
 .status { margin: 0 0 0 auto; color: var(--muted); font-size: 0.875rem; }
 
@@ -139,7 +165,7 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
   z-index: 1;
   width: 6px;
   border-radius: 3px;
-  background: linear-gradient(to top, var(--signal) calc(var(--level) * 10%), var(--slot) 0);
+  background: linear-gradient(to top, var(--ink) calc(var(--level) * 10%), var(--slot) 0);
   box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.35);
 }
 
@@ -256,7 +282,7 @@ h2 { margin: 0; font-size: 1.3125rem; font-weight: 700; line-height: 1.2; }
 @media (max-width: 760px) {
   .page { padding: 0 16px; }
   .status { order: 3; width: 100%; margin: 0; }
-  .masthead .pill { margin-left: auto; }
+  .theme-toggle { margin-left: auto; }
   .hero { grid-template-columns: 1fr; min-height: 0; padding: 16px 0 32px; }
   .desk { margin: 0 -6px; padding: 16px 10px 14px; }
   .desk-head, .filters { padding-inline: 6px; }

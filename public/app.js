@@ -262,14 +262,17 @@ function syncFaders() {
   }
 }
 
+const currentTheme = () => document.documentElement.dataset.theme || (systemDark.matches ? 'dark' : 'light');
+const otherTheme = () => (currentTheme() === 'dark' ? 'light' : 'dark');
+
 function syncThemeButton() {
-  const theme = document.documentElement.dataset.theme || (systemDark.matches ? 'dark' : 'light');
-  $('#theme').setAttribute('aria-pressed', String(theme === 'dark'));
+  const label = `Switch to ${otherTheme()} theme`;
+  Object.assign($('#theme'), { title: label, ariaLabel: label });
 }
 
 function bindControls() {
   $('#theme').addEventListener('click', () => {
-    const theme = $('#theme').getAttribute('aria-pressed') === 'true' ? 'light' : 'dark';
+    const theme = otherTheme();
     document.documentElement.dataset.theme = theme;
     remember(THEME_KEY, theme);
     syncThemeButton();
