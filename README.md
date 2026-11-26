@@ -78,7 +78,8 @@ npm run update    # fetch fresh listings, using APIFY_TOKEN from .env
 3. Under Settings > Pages, set the source to GitHub Actions.
 4. Under Actions > Update deals, run the workflow once to fill the site.
 
-From then on it updates itself every day at 06:00 UTC.
+From then on it updates itself every day at 06:23 UTC. The odd minute is deliberate: GitHub can
+delay or drop scheduled runs that start on the hour.
 
 ## Cost
 

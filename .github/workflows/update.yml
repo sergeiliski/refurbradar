@@ -2,7 +2,7 @@ name: Update deals
 
 on:
   schedule:
-    - cron: '0 6 * * *' # every day, 06:00 UTC
+    - cron: '23 6 * * *' # every day, 06:23 UTC; GitHub drops runs queued on the hour
   workflow_dispatch:
   push:
     branches: [main]
