@@ -14,15 +14,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 554,
+      "price": 599,
       "history": [
         [
           "2026-11-25",
           554
+        ],
+        [
+          "2026-11-26",
+          599
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Good": {
       "id": "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Good",
@@ -43,10 +47,14 @@
         [
           "2026-11-25",
           728
+        ],
+        [
+          "2026-11-26",
+          728
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Excellent": {
       "id": "ef20e8dd-bcbf-4d94-8933-15f59560b9b9:Excellent",
@@ -62,15 +70,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 750,
+      "price": 745,
       "history": [
         [
           "2026-11-25",
           750
+        ],
+        [
+          "2026-11-26",
+          745
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "d127981d-6d36-4574-b56d-8dae62077f4a:Fair": {
       "id": "d127981d-6d36-4574-b56d-8dae62077f4a:Fair",
@@ -163,10 +175,14 @@
         [
           "2026-11-25",
           1575
+        ],
+        [
+          "2026-11-26",
+          1575
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Fair": {
       "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Fair",
@@ -182,15 +198,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 399,
+      "price": 457,
       "history": [
         [
           "2026-11-25",
           399
+        ],
+        [
+          "2026-11-26",
+          457
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Good": {
       "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Good",
@@ -206,15 +226,19 @@
       "nano": false,
       "grade": "Good",
       "battery": null,
-      "price": 550,
+      "price": 520,
       "history": [
         [
           "2026-11-25",
           550
+        ],
+        [
+          "2026-11-26",
+          520
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Excellent": {
       "id": "8948b82c-f746-4be0-a8b0-0758b1dc4acc:Excellent",
@@ -230,15 +254,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 557,
+      "price": 599,
       "history": [
         [
           "2026-11-25",
           557
+        ],
+        [
+          "2026-11-26",
+          599
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Fair": {
       "id": "97eeef5e-b6b3-41df-80b2-94a913ea0cb0:Fair",
@@ -523,10 +551,14 @@
         [
           "2026-11-25",
           699
+        ],
+        [
+          "2026-11-26",
+          699
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "937c5a73-b367-4bc7-a817-c05f66c84572:Fair": {
       "id": "937c5a73-b367-4bc7-a817-c05f66c84572:Fair",
@@ -619,10 +651,14 @@
         [
           "2026-11-25",
           1700
+        ],
+        [
+          "2026-11-26",
+          1700
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "fe461b5f-6b8b-41ff-aa01-a4758902b112:Good": {
       "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Good",
@@ -643,10 +679,14 @@
         [
           "2026-11-25",
           1899
+        ],
+        [
+          "2026-11-26",
+          1899
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "fe461b5f-6b8b-41ff-aa01-a4758902b112:Excellent": {
       "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Excellent",
@@ -662,15 +702,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 2148,
+      "price": 2029,
       "history": [
         [
           "2026-11-25",
           2148
+        ],
+        [
+          "2026-11-26",
+          2029
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "fe461b5f-6b8b-41ff-aa01-a4758902b112:Premium": {
       "id": "fe461b5f-6b8b-41ff-aa01-a4758902b112:Premium",
@@ -691,10 +735,14 @@
         [
           "2026-11-25",
           2200
+        ],
+        [
+          "2026-11-26",
+          2200
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Fair": {
       "id": "7ec61285-e7f0-47e7-a338-cc55f7ec5a41:Fair",
@@ -739,10 +787,14 @@
         [
           "2026-11-25",
           1299
+        ],
+        [
+          "2026-11-26",
+          1299
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "e5c0062d-0963-4df9-ac70-9674edb60225:Excellent": {
       "id": "e5c0062d-0963-4df9-ac70-9674edb60225:Excellent",
@@ -763,10 +815,14 @@
         [
           "2026-11-25",
           2499
+        ],
+        [
+          "2026-11-26",
+          2499
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "64047dde-896c-49c5-8c2b-dba16852fbaf:Fair": {
       "id": "64047dde-896c-49c5-8c2b-dba16852fbaf:Fair",
@@ -883,10 +939,14 @@
         [
           "2026-11-25",
           1899
+        ],
+        [
+          "2026-11-26",
+          1899
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Fair": {
       "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Fair",
@@ -902,15 +962,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 1120,
+      "price": 1094,
       "history": [
         [
           "2026-11-25",
           1120
+        ],
+        [
+          "2026-11-26",
+          1094
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Good": {
       "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Good",
@@ -926,15 +990,19 @@
       "nano": false,
       "grade": "Good",
       "battery": null,
-      "price": 1339,
+      "price": 1175,
       "history": [
         [
           "2026-11-25",
           1339
+        ],
+        [
+          "2026-11-26",
+          1175
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Excellent": {
       "id": "2883b943-e9e2-4d3b-9993-21dd2b42bdf2:Excellent",
@@ -955,10 +1023,14 @@
         [
           "2026-11-25",
           1399
+        ],
+        [
+          "2026-11-26",
+          1399
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "9a349640-443b-43c2-aa6d-bdbe4b9e69a9:Excellent": {
       "id": "9a349640-443b-43c2-aa6d-bdbe4b9e69a9:Excellent",
@@ -974,15 +1046,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 4102,
+      "price": 3562,
       "history": [
         [
           "2026-11-25",
           4102
+        ],
+        [
+          "2026-11-26",
+          3562
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "002916e0-120d-449a-bd30-022527c26607:Fair": {
       "id": "002916e0-120d-449a-bd30-022527c26607:Fair",
@@ -1003,10 +1079,14 @@
         [
           "2026-11-25",
           1599
+        ],
+        [
+          "2026-11-26",
+          1599
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "f1b21ee2-2445-43a3-94b0-c80d30229293:Fair": {
       "id": "f1b21ee2-2445-43a3-94b0-c80d30229293:Fair",
@@ -1027,10 +1107,14 @@
         [
           "2026-11-25",
           2899
+        ],
+        [
+          "2026-11-26",
+          2899
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "cccbd654-810c-4942-bb2c-067885e446a7:Excellent": {
       "id": "cccbd654-810c-4942-bb2c-067885e446a7:Excellent",
@@ -1147,10 +1231,14 @@
         [
           "2026-11-25",
           1145
+        ],
+        [
+          "2026-11-26",
+          1145
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "fffefc73-3053-4468-be45-dd5e7fe62e13:Fair": {
       "id": "fffefc73-3053-4468-be45-dd5e7fe62e13:Fair",
@@ -1166,15 +1254,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 1599,
+      "price": 1656,
       "history": [
         [
           "2026-11-25",
           1599
+        ],
+        [
+          "2026-11-26",
+          1656
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "fffefc73-3053-4468-be45-dd5e7fe62e13:Excellent": {
       "id": "fffefc73-3053-4468-be45-dd5e7fe62e13:Excellent",
@@ -1190,15 +1282,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 1714,
+      "price": 1755,
       "history": [
         [
           "2026-11-25",
           1714
+        ],
+        [
+          "2026-11-26",
+          1755
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "2a101131-a627-4830-8385-eba155ef9e18:Fair": {
       "id": "2a101131-a627-4830-8385-eba155ef9e18:Fair",
@@ -1238,15 +1334,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 706,
+      "price": 694,
       "history": [
         [
           "2026-11-25",
           706
+        ],
+        [
+          "2026-11-26",
+          694
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Fair": {
       "id": "4c1f0d97-97ce-4f8c-8910-3522a2adcbde:Fair",
@@ -1478,15 +1578,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 535,
+      "price": 530,
       "history": [
         [
           "2026-11-25",
           535
+        ],
+        [
+          "2026-11-26",
+          530
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Excellent": {
       "id": "9ad04fc3-6949-445b-a777-a0c805ac5ae0:Excellent",
@@ -1550,15 +1654,19 @@
       "nano": false,
       "grade": "Good",
       "battery": null,
-      "price": 749,
+      "price": 814,
       "history": [
         [
           "2026-11-25",
           749
+        ],
+        [
+          "2026-11-26",
+          814
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Excellent": {
       "id": "1e1ec3c9-c221-4651-870c-74d2c8c28a3c:Excellent",
@@ -1574,15 +1682,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 859,
+      "price": 843,
       "history": [
         [
           "2026-11-25",
           859
+        ],
+        [
+          "2026-11-26",
+          843
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "971d112f-19a2-434b-982a-e393399d9fd9:Good": {
       "id": "971d112f-19a2-434b-982a-e393399d9fd9:Good",
@@ -1891,10 +2003,14 @@
         [
           "2026-11-25",
           1499
+        ],
+        [
+          "2026-11-26",
+          1499
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "78e550f7-863b-4357-8818-5c3a8fe362f3:Excellent": {
       "id": "78e550f7-863b-4357-8818-5c3a8fe362f3:Excellent",
@@ -1910,15 +2026,19 @@
       "nano": false,
       "grade": "Excellent",
       "battery": null,
-      "price": 1949,
+      "price": 1948,
       "history": [
         [
           "2026-11-25",
           1949
+        ],
+        [
+          "2026-11-26",
+          1948
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "6c552957-ecf8-4b9d-ae07-b1768cfe7233:Fair": {
       "id": "6c552957-ecf8-4b9d-ae07-b1768cfe7233:Fair",
@@ -1963,10 +2083,14 @@
         [
           "2026-11-25",
           2600
+        ],
+        [
+          "2026-11-26",
+          2600
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Fair": {
       "id": "2264ef6f-0d2c-4cc6-8d1a-21968f77313b:Fair",
@@ -2011,10 +2135,14 @@
         [
           "2026-11-25",
           1849
+        ],
+        [
+          "2026-11-26",
+          1849
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "3a0c5247-2979-444a-89f5-392fa73dc4c5:Fair": {
       "id": "3a0c5247-2979-444a-89f5-392fa73dc4c5:Fair",
@@ -2059,10 +2187,14 @@
         [
           "2026-11-25",
           1199
+        ],
+        [
+          "2026-11-26",
+          1199
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "f64512e4-b438-4f95-a524-35cc62bd2171:Good": {
       "id": "f64512e4-b438-4f95-a524-35cc62bd2171:Good",
@@ -2198,15 +2330,19 @@
       "nano": false,
       "grade": "Fair",
       "battery": null,
-      "price": 1199,
+      "price": 1114,
       "history": [
         [
           "2026-11-25",
           1199
+        ],
+        [
+          "2026-11-26",
+          1114
         ]
       ],
       "firstSeen": "2026-11-25",
-      "lastSeen": "2026-11-25"
+      "lastSeen": "2026-11-26"
     },
     "7d35d1e2-5538-42c2-8c46-0a5466cd4c96:Fair": {
       "id": "7d35d1e2-5538-42c2-8c46-0a5466cd4c96:Fair",
@@ -2279,6 +2415,510 @@
       ],
       "firstSeen": "2026-11-25",
       "lastSeen": "2026-11-25"
+    },
+    "4ba6d96c-566d-4af8-9780-c0567a9c29ca:Fair": {
+      "id": "4ba6d96c-566d-4af8-9780-c0567a9c29ca:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/4ba6d96c-566d-4af8-9780-c0567a9c29ca?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "cpu": 10,
+      "gpu": 16,
+      "ram": 16,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 725,
+      "history": [
+        [
+          "2026-11-26",
+          725
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "ca802a56-42ae-4b72-859f-8126b2a652bf:Excellent": {
+      "id": "ca802a56-42ae-4b72-859f-8126b2a652bf:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/ca802a56-42ae-4b72-859f-8126b2a652bf?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 2,
+      "tier": "pro",
+      "cpu": 10,
+      "gpu": 16,
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1028,
+      "history": [
+        [
+          "2026-11-26",
+          1028
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Fair": {
+      "id": "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/b73d87f7-5546-468c-86c4-1b0c69ec8cdf?l=12",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "cpu": 14,
+      "gpu": 30,
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 2049,
+      "history": [
+        [
+          "2026-11-26",
+          2049
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "946234a9-c96f-417e-a926-51e88c732b47:Good": {
+      "id": "946234a9-c96f-417e-a926-51e88c732b47:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/946234a9-c96f-417e-a926-51e88c732b47?l=11",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "cpu": 11,
+      "gpu": 14,
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1420,
+      "history": [
+        [
+          "2026-11-26",
+          1420
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "946234a9-c96f-417e-a926-51e88c732b47:Excellent": {
+      "id": "946234a9-c96f-417e-a926-51e88c732b47:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/946234a9-c96f-417e-a926-51e88c732b47?l=10",
+      "size": 14,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "cpu": 11,
+      "gpu": 14,
+      "ram": 18,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 1499,
+      "history": [
+        [
+          "2026-11-26",
+          1499
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Good": {
+      "id": "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/b73d87f7-5546-468c-86c4-1b0c69ec8cdf?l=11",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "cpu": 14,
+      "gpu": 30,
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 2530,
+      "history": [
+        [
+          "2026-11-26",
+          2530
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Excellent": {
+      "id": "b73d87f7-5546-468c-86c4-1b0c69ec8cdf:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/b73d87f7-5546-468c-86c4-1b0c69ec8cdf?l=10",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "max",
+      "cpu": 14,
+      "gpu": 30,
+      "ram": 36,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 2299,
+      "history": [
+        [
+          "2026-11-26",
+          2299
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "fffefc73-3053-4468-be45-dd5e7fe62e13:Good": {
+      "id": "fffefc73-3053-4468-be45-dd5e7fe62e13:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/fffefc73-3053-4468-be45-dd5e7fe62e13?l=11",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "pro",
+      "cpu": 12,
+      "gpu": 16,
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1745,
+      "history": [
+        [
+          "2026-11-26",
+          1745
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "561e233f-143d-46bd-9ad9-889fa4306c4e:Good": {
+      "id": "561e233f-143d-46bd-9ad9-889fa4306c4e:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m4-series/561e233f-143d-46bd-9ad9-889fa4306c4e?l=11",
+      "size": 14,
+      "year": 2024,
+      "gen": 4,
+      "tier": "max",
+      "cpu": 16,
+      "gpu": 40,
+      "ram": 64,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 3595,
+      "history": [
+        [
+          "2026-11-26",
+          3595
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "301f8a6d-b2ef-4d89-85b6-5b65dbd03ffd:Good": {
+      "id": "301f8a6d-b2ef-4d89-85b6-5b65dbd03ffd:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m5-series/301f8a6d-b2ef-4d89-85b6-5b65dbd03ffd?l=11",
+      "size": 14,
+      "year": 2026,
+      "gen": 5,
+      "tier": "max",
+      "cpu": 18,
+      "gpu": 32,
+      "ram": 36,
+      "ssd": 2000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 4099,
+      "history": [
+        [
+          "2026-11-26",
+          4099
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "a8aab55f-4401-42cf-a3cc-846910b19f8d:Good": {
+      "id": "a8aab55f-4401-42cf-a3cc-846910b19f8d:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m3-series/a8aab55f-4401-42cf-a3cc-846910b19f8d?l=11",
+      "size": 16,
+      "year": 2023,
+      "gen": 3,
+      "tier": "pro",
+      "cpu": 12,
+      "gpu": 18,
+      "ram": 36,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 2056,
+      "history": [
+        [
+          "2026-11-26",
+          2056
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "2e0861d0-a787-4034-9f77-cab773b66dcb:Fair": {
+      "id": "2e0861d0-a787-4034-9f77-cab773b66dcb:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2e0861d0-a787-4034-9f77-cab773b66dcb?l=12",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 8,
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 629,
+      "history": [
+        [
+          "2026-11-26",
+          629
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "2e0861d0-a787-4034-9f77-cab773b66dcb:Good": {
+      "id": "2e0861d0-a787-4034-9f77-cab773b66dcb:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/2e0861d0-a787-4034-9f77-cab773b66dcb?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 8,
+      "ram": 16,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 649,
+      "history": [
+        [
+          "2026-11-26",
+          649
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "30c2c24c-be74-409d-8bec-50e9b9bf421a:Good": {
+      "id": "30c2c24c-be74-409d-8bec-50e9b9bf421a:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/30c2c24c-be74-409d-8bec-50e9b9bf421a?l=11",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 8,
+      "ram": 8,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 550,
+      "history": [
+        [
+          "2026-11-26",
+          550
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "30c2c24c-be74-409d-8bec-50e9b9bf421a:Excellent": {
+      "id": "30c2c24c-be74-409d-8bec-50e9b9bf421a:Excellent",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/30c2c24c-be74-409d-8bec-50e9b9bf421a?l=10",
+      "size": 13,
+      "year": 2020,
+      "gen": 1,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 8,
+      "ram": 8,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Excellent",
+      "battery": null,
+      "price": 600,
+      "history": [
+        [
+          "2026-11-26",
+          600
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "602790b6-5f4b-4a1b-9369-182336680a77:Good": {
+      "id": "602790b6-5f4b-4a1b-9369-182336680a77:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/602790b6-5f4b-4a1b-9369-182336680a77?l=11",
+      "size": 16,
+      "year": 2021,
+      "gen": 1,
+      "tier": "max",
+      "cpu": 10,
+      "gpu": 24,
+      "ram": 64,
+      "ssd": 1000,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1680,
+      "history": [
+        [
+          "2026-11-26",
+          1680
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "a1a7eeae-c91d-4c06-8ff2-d52fe8067464:Fair": {
+      "id": "a1a7eeae-c91d-4c06-8ff2-d52fe8067464:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/a1a7eeae-c91d-4c06-8ff2-d52fe8067464?l=12",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "cpu": 10,
+      "gpu": 16,
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 845,
+      "history": [
+        [
+          "2026-11-26",
+          845
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "a1a7eeae-c91d-4c06-8ff2-d52fe8067464:Good": {
+      "id": "a1a7eeae-c91d-4c06-8ff2-d52fe8067464:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m1-series/a1a7eeae-c91d-4c06-8ff2-d52fe8067464?l=11",
+      "size": 14,
+      "year": 2021,
+      "gen": 1,
+      "tier": "pro",
+      "cpu": 10,
+      "gpu": 16,
+      "ram": 32,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 874,
+      "history": [
+        [
+          "2026-11-26",
+          874
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "b00f4de2-ee1d-42d5-b440-fd36e80b1665:Fair": {
+      "id": "b00f4de2-ee1d-42d5-b440-fd36e80b1665:Fair",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/b00f4de2-ee1d-42d5-b440-fd36e80b1665?l=12",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 10,
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Fair",
+      "battery": null,
+      "price": 799,
+      "history": [
+        [
+          "2026-11-26",
+          799
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "b00f4de2-ee1d-42d5-b440-fd36e80b1665:Good": {
+      "id": "b00f4de2-ee1d-42d5-b440-fd36e80b1665:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/b00f4de2-ee1d-42d5-b440-fd36e80b1665?l=11",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 10,
+      "ram": 16,
+      "ssd": 256,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 917,
+      "history": [
+        [
+          "2026-11-26",
+          917
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
+    },
+    "4d3f4256-6d1d-4c4f-ad8e-4e6e6d25a0c3:Good": {
+      "id": "4d3f4256-6d1d-4c4f-ad8e-4e6e6d25a0c3:Good",
+      "url": "https://www.backmarket.co.uk/en-gb/p/macbook-pro-m2-series/4d3f4256-6d1d-4c4f-ad8e-4e6e6d25a0c3?l=11",
+      "size": 13,
+      "year": 2022,
+      "gen": 2,
+      "tier": "base",
+      "cpu": 8,
+      "gpu": 10,
+      "ram": 24,
+      "ssd": 512,
+      "nano": false,
+      "grade": "Good",
+      "battery": null,
+      "price": 1099,
+      "history": [
+        [
+          "2026-11-26",
+          1099
+        ]
+      ],
+      "firstSeen": "2026-11-26",
+      "lastSeen": "2026-11-26"
     }
   },
   "scans": [
@@ -2289,6 +2929,10 @@
     {
       "at": "2026-11-25T12:54:16.438Z",
       "count": 46
+    },
+    {
+      "at": "2026-11-26T15:12:36.715Z",
+      "count": 55
     }
   ]
 }
