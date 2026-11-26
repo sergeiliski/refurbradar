@@ -320,10 +320,6 @@ function bindControls() {
     if (target.id === 'compare-dialog' && outside) target.close();
   });
   $('#chips').addEventListener('change', syncChipFilter);
-  $('#chips-any').addEventListener('click', () => {
-    for (const input of document.querySelectorAll('#chips input')) input.checked = false;
-    syncChipFilter();
-  });
   $('#budget').addEventListener('input', ({ target }) => {
     state.budget = Number(target.value) > 0 ? Number(target.value) : Infinity;
     scheduleRender();
@@ -360,9 +356,7 @@ function buildChipFilter(listings) {
 function syncChipFilter() {
   const checked = (kind) => [...document.querySelectorAll(`#chips input[data-kind="${kind}"]:checked`)].map((input) => input.value);
   state.gens = new Set(checked('gen').map(Number));
-  state.tiers = new Set(checked('tier'));
-  $('#chips-any').setAttribute('aria-pressed', String(state.gens.size + state.tiers.size === 0));
-  scheduleRender();
+  state.tiers = new Set(checked('tier'));  scheduleRender();
 }
 
 const MAX_COMPARE = 3;
